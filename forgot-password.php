@@ -68,9 +68,9 @@ $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 465; // or 587
 $mail->IsHTML(true);
-$mail->Username = "foodfastsuport@gmail.com";
-$mail->Password = "DrQq2E2sfvPpD";
-$mail->SetFrom("foodfastsupport@gmail.com");
+$mail->Username = "";
+$mail->Password = "";
+$mail->SetFrom("");
 $mail->Subject = "Test";
 $mail->Body = "hello";
 $mail->AddAddress("$email_to");
